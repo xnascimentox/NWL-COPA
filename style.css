@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ul {
   list-style: none;
 }
+
 body {
   background-color: #121214;
   background-image: url(./assets/bg.svg);
@@ -19,8 +21,9 @@ body * {
 
 #app {
   width: fit-content;
-  margin-top: 52px auto;
+  margin: 52px auto;
 }
+
 header {
   margin-bottom: 63px;
 }
@@ -33,6 +36,7 @@ header {
   border-bottom: 2px solid #f7dd43;
   border-radius: 6px;
 }
+
 .card h2 {
   display: flex;
   gap: 16px;
@@ -44,7 +48,7 @@ header {
   border-radius: 6px;
 
   width: fit-content;
-  margin-inline-end: auto;
+  margin-inline: auto;
   margin-bottom: 53px;
 
   color: #f7dd43;
@@ -55,6 +59,7 @@ header {
   font-size: 14px;
   text-transform: uppercase;
 }
+
 .card ul {
   display: flex;
   flex-direction: column;
@@ -70,7 +75,7 @@ header {
 }
 
 .card ul li + li {
-  padding-top: 28px;
+  padding-top: 24px;
   border-top: 1px solid #323238;
 }
 
